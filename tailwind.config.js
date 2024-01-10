@@ -4,12 +4,20 @@ module.exports = {
     extend: {
       colors: {
         // Custom color palette
-        black: "#000000",
+        black: "#00001B",
         white: "#ffffff",
+        gold: {
+          500: "#bf9b30",
+        },
         red: {
           500: "#ff0000", // Bright red for key elements
           600: "#e00000", // Slightly darker red
           700: "#c00000", // Even darker red for different shades
+        },
+        blue: {
+          500: "#0000ff", // Bright blue for key elements
+          600: "#0000e0", // Slightly darker blue
+          700: "#0000c0", // Even darker blue for different shades
         },
       },
       fontFamily: {
