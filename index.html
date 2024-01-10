@@ -10,27 +10,33 @@
   </head>
   <body class="bg-black text-white flex flex-col min-h-screen">
     <!-- Main Headline -->
-    <header class="flex flex-col items-center p-4 text-center">
-      <nav class="w-full">
-        <div
-          id="hamburger-menu"
-          class="cursor-pointer text-white md:hidden p-4"
-        >
-          ☰
-        </div>
-        <ul id="nav-links" class="hidden md:flex justify-center space-x-4 p-4">
-          <li>
-            <a href="#best-casinos" class="text-white hover:text-gold-500"
-              >Best Casinos Sites</a
-            >
-          </li>
-          <li>
-            <a href="#new-casinos" class="text-white hover:text-gold-500"
-              >Best Sport Betting Sites</a
-            >
-          </li>
-        </ul>
-      </nav>
+    <header class="flex flex-col items-center text-center">
+      <div class="bg-white flex justify-center items-center w-full">
+        <img src="logo.png" alt="The Bet Nation" class="w-16" />
+        <nav class="flex-1">
+          <div
+            id="hamburger-menu"
+            class="cursor-pointer text-black md:hidden p-4"
+          >
+            ☰
+          </div>
+          <ul
+            id="nav-links"
+            class="hidden md:flex justify-center space-x-4 p-4"
+          >
+            <li>
+              <a href="#best-casinos" class="text-white hover:text-gold-500"
+                >Best Casinos Sites</a
+              >
+            </li>
+            <li>
+              <a href="#new-casinos" class="text-white hover:text-gold-500"
+                >Best Sport Betting Sites</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
       <h1 class="text-4xl font-bold text-white">BEST ONLINE CASINOS</h1>
       <p class="mt-2 mb-2 text-gold-500">
         Discover the top online casino platforms.
@@ -38,26 +44,46 @@
       <img src="header.png" alt="The Bet Nation" class="w-full" />
     </header>
     <!-- Call-to-Action Button -->
-    <div class="text-center p-4">
-      <button
-        class="bg-gold-500 text-white py-2 px-4 rounded hover:bg-gold-600"
-      >
-        CHECK OUR TOPLIST
-      </button>
+    <div class="text-center w-full p-4 text-white text-2xl">
+      List of the Top Online Casinos Sites for Real Money January 2024
     </div>
 
     <!-- Featured Casinos -->
     <section class="flex flex-col items-center p-4 flex-1">
-      <div class="bg-white text-black p-4 rounded w-full max-w-md">
-        <h2 class="text-xl font-bold">Casino 1</h2>
-        <!-- More casino details -->
-        <button
-          class="bg-gold-500 text-white mt-2 py-2 px-4 rounded hover:bg-gold-600 w-full"
-        >
-          VISIT CASINO
+      <div class="casino-card bg-white rounded-lg p-4 text-center">
+        <img
+          src="hollywood-logo.png"
+          alt="Hollywood bets"
+          class="bg-purple-700 mx-auto"
+          width="120"
+          height="30"
+        />
+        <h2 class="text-gold-500 text-lg font-bold mt-2">Hollywood Bets</h2>
+        <p class="text-black font-bold mt-4">
+          R25 Sign Up Bonus <br />
+          + 50 Free Spins
+        </p>
+
+        <ul class="mt-4 text-left mx-auto w-3/4">
+          <li class="text-black">
+            <span class="text-red-500">✔</span> Weekly Freespins
+          </li>
+          <li class="text-black">
+            <span class="text-red-500">✔</span> Fast Deposit / Withdrawal
+            options (instant)
+          </li>
+          <li class="text-black">
+            <span class="text-red-500">✔</span> Unlimited Betting (+4000 Sport)
+          </li>
+        </ul>
+
+        <button class="bg-black text-white font-bold py-2 px-4 rounded mt-4">
+          More about Hollywood Bets
+        </button>
+        <button class="bg-black text-white font-bold py-2 px-4 rounded mt-2">
+          PLAY NOW
         </button>
       </div>
-      <!-- More casinos -->
     </section>
 
     <!-- Footer -->
