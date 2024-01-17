@@ -13,29 +13,36 @@
     <header class="flex flex-col items-center">
       <div class="bg-white flex justify-between w-full h-16 items-center">
         <img src="../logo.png" alt="The Bet Nation" class="w-16 h-16" />
-        <div class="text-black text-xl text-center">
-          <a class="text-black font-semibold" href="/">TheBetNation.co.za</a>
+        <div class="hidden lg:flex text-black text-xl text-center">
+          <a
+            href="../"
+            class="text-black font-semibold absolute right-1/2 mt-4 top-0 transform translate-x-1/2"
+            >TheBetNation.co.za</a
+          >
         </div>
-        <nav>
+        <div class="flex lg:hidden text-black text-xl text-center">
+          <a href="../" class="text-black font-semibold">TheBetNation.co.za</a>
+        </div>
+        <nav class="flex lg:hidden">
           <div
             id="hamburger-menu"
-            class="cursor-pointer text-black md:hidden p-4 text-3xl text-right"
+            class="cursor-pointer text-black lg:hidden p-4 text-3xl text-right"
           >
             ☰
           </div>
 
           <ul
             id="nav-links"
-            class="hidden left-1/2 fixed w-1/2 top-16 inset-x-0 md:relative md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 p-4 bg-white bg-opacity-95 md:bg-opacity-100 z-20"
+            class="hidden items-center left-1/2 fixed w-1/2 top-16 inset-x-0 lg:relative lg:flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-4 p-4 bg-white bg-opacity-95 md:bg-opacity-100 z-20"
           >
-            <li>
+            <li class="flex lg:hidden">
               <a
                 href="../casino/"
                 class="text-black hover:text-gold-500 text-left"
                 >Best Casinos Sites</a
               >
             </li>
-            <li>
+            <li class="flex lg:hidden">
               <a
                 href="../sport/"
                 class="text-black hover:text-gold-500 text-left"
@@ -44,11 +51,25 @@
             </li>
           </ul>
         </nav>
+        <div class="hidden lg:flex">
+          <span class="pr-3 pl-3">
+            <a
+              href="../casino/"
+              class="text-black hover:text-gold-500 text-left"
+              >Best Casinos Sites</a
+            >
+          </span>
+          <span class="pr-3 pl-3">
+            <a href="../sport/" class="text-black hover:text-gold-500 text-left"
+              >Best Sport Betting Sites</a
+            >
+          </span>
+        </div>
       </div>
       <h1 class="text-4xl font-bold text-center text-white mt-2 mr-1 ml-1">
         BEST ONLINE SPORT BETTING
       </h1>
-      <p class="p-4 text-gold-500">
+      <p class="p-4 text-gold-500 text-base sm:text-lg md:text-xl lg:text-2xl">
         Discover the top online sport betting platforms.
       </p>
       <div class="relative min-h-[350px]">
@@ -58,7 +79,9 @@
           class="w-full h-auto opacity-35 contrast-125 object-cover"
         />
         <div class="absolute top-0">
-          <p class="text-white px-4 bg-opacity-45 bg-black inline-block">
+          <p
+            class="text-white px-4 bg-opacity-45 bg-black inline-block text-base sm:text-lg md:text-xl lg:text-2xl"
+          >
             Step into South Africa's elite online sports betting with The Bet
             Nation, your ultimate guide to the most trusted online sport betting
             sites. Experience the thrill of sports victory. Our expert reviews,
